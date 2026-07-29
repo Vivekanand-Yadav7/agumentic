@@ -1,0 +1,18 @@
+{
+  "name": "propmanage-realestate-portal",
+  "version": "1.0.0",
+  "description": "PropManage Real Estate Management System with PostgreSQL (Prisma) and React",
+  "scripts": {
+    "postinstall": "npm run install:server && npm run install:client",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npx prisma generate",
+    "build": "npm run build:server && npm run build:client",
+    "start": "cd server && npm start",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "db:push": "cd server && npx prisma db push",
+    "db:seed": "cd server && node src/utils/seed.js"
+  }
+}
