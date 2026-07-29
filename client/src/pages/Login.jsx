@@ -30,9 +30,9 @@ export default function Login() {
     <div className="login-page">
       <div className="login-card">
         <div className="login-logo">
-          <div className="icon">S</div>
-          <h1>Shilabs</h1>
-          <p>Academy Management System</p>
+          <div className="icon">P</div>
+          <h1>PropManage</h1>
+          <p>Real Estate Management Portal</p>
         </div>
 
         <form onSubmit={handleSubmit}>
