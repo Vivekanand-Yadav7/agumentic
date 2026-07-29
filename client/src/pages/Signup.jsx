@@ -42,9 +42,9 @@ export default function Signup() {
     <div className="login-page">
       <div className="login-card" style={{ maxWidth: 450 }}>
         <div className="login-logo">
-          <div className="icon">S</div>
-          <h1>Shilabs</h1>
-          <p>Academy Management System</p>
+          <div className="icon">P</div>
+          <h1>PropManage</h1>
+          <p>Real Estate Management Portal</p>
         </div>
 
         <h3 style={{ textAlign: 'center', marginBottom: 20 }}>Create an Account</h3>
